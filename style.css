@@ -804,11 +804,7 @@ button:hover {
         transform: translateY(0px);
         z-index: 2;
         position: relative;
-        margin-left: 28%;
-    }
-
-    .containerAnimationG {
-        flex-direction: column;
+        margin-left: 15%;
     }
 
     .rightContainer {
@@ -823,6 +819,89 @@ button:hover {
         margin-left: 0%;
     }
 
+    .columnB {
+        font-family: .8em;
+    }
+
+    .sectionFiveContainer, .sectionOneContainer {
+        background-attachment: scroll;
+        background-size: contain;     
+        background-position: top center; 
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+    }
+
+    .aboutMeName, .aboutMeDescription, .photoImageFormat, .columnCenter {
+        transform: translateX(-50px);
+    }
+
+    #about {
+        scroll-margin-top: 200px; 
+    }
+    
+    #hobbies {
+        scroll-margin-top: 200px; 
+    }
+    
+    #photos {
+        scroll-margin-top: 200px; 
+    }
+    
+    #portfolios {
+        scroll-margin-top: 270px; 
+    }
+    
+    #contacts {
+        scroll-margin-top: 200px; 
+    }
+
+    .headerContainer {
+        padding: 0 0px;
+        font-size: 7px;
+        justify-content: space-between;
+        margin-left: 0%;
+        margin-top: 0%;
+        margin-right: 0%;
+        padding: 0%;
+    }
+
+    .headerExtraFormat {
+        font-size: 10px;
+        color: lightgray;
+        margin-left: 0%;
+        padding: 0%;
+    }
+
+    .columnCenterFormat {
+        font-family: 'Timeburner', 'Bebas Neue', Tahoma, Verdana;
+        font-size: 1.2em;
+    }
+
+    .contactFormat {
+        color: gray;
+        font-size: .6em;
+        margin-left: 2%;
+    }
+
+    .icon-button {
+        background-color: white;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.2s;
+    }
+
+    .columnB {
+        font-family: .8em;
+    }
 }
 
 @media (min-width: 600px) and (max-width: 1023px) {
@@ -833,7 +912,7 @@ button:hover {
         gap: 8px;
     }
     
-      .headerExtraFormat {
+    .headerExtraFormat {
         width: 100%;
         display: flex;
         justify-content: center;
@@ -841,7 +920,7 @@ button:hover {
         gap: 8px;
     }
     
-      .headerContainer span {
+    .headerContainer span {
         width: 100%;
     }
     
@@ -891,6 +970,17 @@ button:hover {
         font-size: 3rem;
     }
 
+    .bottomTextBox {
+        background-color: #333;
+        padding: 10px 40px;
+        border-radius: 20px 20px 0 0;
+        box-shadow: 0 -4px 12px rgba(0, 0, 0, 0);
+        transform: translateY(0px);
+        z-index: 2;
+        position: relative;
+        margin-left: 5%;
+    }
+
     .rightContainer {
         width: 100%;
         height: 100%;
@@ -901,5 +991,98 @@ button:hover {
 
     .columnA {
         margin-left: 10%;
+    }
+
+    .columnB {
+        font-family: .8em;
+    }
+
+
+    .sectionFiveContainer, .sectionOneContainer {
+        background-attachment: scroll;
+        background-size: contain;     
+        background-position: top center; 
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+    }
+
+    .aboutMeName, .aboutMeDescription, .photoImageFormat, .columnCenter {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .sectionFiveContainer {
+        background-attachment: scroll;
+        background-size: contain;     
+        background-position: top center; 
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+    }
+    
+    #about {
+        scroll-margin-top: 100px; 
+    }
+    
+    #hobbies {
+        scroll-margin-top: 80px; 
+    }
+    
+    #photos {
+        scroll-margin-top: 50px; 
+    }
+    
+    #portfolios {
+        scroll-margin-top: 160px; 
+    }
+    
+    #contacts {
+        scroll-margin-top: 50px; 
+    }
+
+    .headerContainer {
+        padding: 0 0px;
+        font-size: 10px;
+        justify-content: space-between;
+        margin-left: .5%;
+        margin-top: .3%;
+        margin-right: .5%;
+        padding: 0%;
+    }
+
+    .headerExtraFormat {
+        font-size: 10px;
+        color: lightgray;
+        margin-left: 5%;
+        padding: 0%;
+    }
+
+    .columnCenterFormat {
+        font-family: 'Timeburner', 'Bebas Neue', Tahoma, Verdana;
+        font-size: 1.2em;
+    }
+
+    .contactFormat {
+        color: gray;
+        font-size: .6em;
+        margin-left: 2%;
+    }
+
+    .icon-button {
+        background-color: white;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.2s;
     }
 }
